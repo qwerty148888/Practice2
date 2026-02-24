@@ -1,5 +1,5 @@
 n = int(input())
 arr = list(map(int, input().split()))
 for i in range(n):
-    arr[i] = arr[i]**2
+        arr[i] = arr[i]*arr[i]
 print(*arr)

@@ -1,0 +1,13 @@
+import os
+import json
+
+print("Где я сейчас нахожусь:")
+print(os.getcwd())
+
+print("\nЧто в этой папке:")
+print(os.listdir())
+
+with open("sample-data.json", "r") as f:
+    data = json.load(f)
+
+print("\nJSON успешно открыт")
